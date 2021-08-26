@@ -1,0 +1,36 @@
+h2 {
+  font-weight: 600;
+}
+
+.post {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postControl {
+  display: flex;
+  align-items: center;
+}
+
+.postControl button {
+  padding: 0;
+}
+
+.deleteBtn svg {
+  font-size: 32px;
+}
+
+.numberZ {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.formFields {
+  color: rgb(123, 123, 123);
+}
+.formValues {
+  font-weight: 500;
+  padding-left: 1rem;
+}
