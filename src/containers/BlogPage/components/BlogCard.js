@@ -3,8 +3,6 @@ import './BlogCard.css'
 import DeleteForeverIcon from '@material-ui/icons/DeleteForever'
 import EditIcon from '@material-ui/icons/Edit'
 import axios from 'axios'
-import { ATIurl } from './../../../shared/projectData'
-import { BrowserRouter, NavLink, Route, Switch } from 'react-router-dom'
 
 export const BlogCard = ({
   title,

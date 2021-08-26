@@ -43,20 +43,6 @@ export class BlogPage extends Component {
     }
   }
 
-  likePost = (blogPost) => {
-    const temp = { ...blogPost }
-
-    axios
-      .put(`${postsUrl}${blogPost.id}`, temp)
-      .then((response) => {
-        console.log('Пост изменен => ', response.data)
-        this.fetchPosts()
-      })
-      .catch((err) => {
-        console.log(err)
-      })
-  }
-
   deletePost = (blogPost) => {
     if (window.confirm(`Удалить ${blogPost.title}?`)) {
       this.setState({

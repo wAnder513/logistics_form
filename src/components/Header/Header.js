@@ -1,5 +1,3 @@
-import styles from './Header.module.css'
-
 export const Header = () => {
   return (
     <div className="p-2 mb-2 bg-secondary text-white">

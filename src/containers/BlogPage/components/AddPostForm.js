@@ -1,5 +1,5 @@
 import './AddPostForm.css'
-import React, { useState } from 'react'
+import React from 'react'
 import CancelIcon from '@material-ui/icons/Cancel'
 import { Component } from 'react'
 
@@ -104,7 +104,6 @@ export class AddPostForm extends Component {
               placeholder="№ заявки"
               value={this.state.postTitle}
               onChange={this.handlePostTitleChange}
-              required
             />
           </div>
 
@@ -116,7 +115,6 @@ export class AddPostForm extends Component {
               placeholder="Дата и время получения заявки"
               value={this.state.postDate}
               onChange={this.handlePostDateChange}
-              required
             />
           </div>
           <div>
@@ -127,7 +125,6 @@ export class AddPostForm extends Component {
               placeholder="Название фирмы клиента"
               value={this.state.postCompanyName}
               onChange={this.handlePostCompanyName}
-              required
             />
           </div>
           <div>
@@ -138,7 +135,6 @@ export class AddPostForm extends Component {
               placeholder="ФИО перевозчика"
               value={this.state.postFullName}
               onChange={this.handlePostFullName}
-              required
             />
           </div>
           <div>
@@ -149,7 +145,6 @@ export class AddPostForm extends Component {
               placeholder="Телефон перевозчика"
               value={this.state.postPhone}
               onChange={this.handlePostPhone}
-              required
             />
           </div>
           <div>
@@ -160,7 +155,6 @@ export class AddPostForm extends Component {
               value={this.state.postComments}
               onChange={this.handlePostComments}
               rows={4}
-              required
             />
           </div>
           <div>
@@ -171,7 +165,6 @@ export class AddPostForm extends Component {
               placeholder="ATI код"
               value={this.state.postATI}
               onChange={this.handlePostATI}
-              required
             />
           </div>
           <div>
